@@ -1,0 +1,16 @@
+select * from Album;
+
+select * from Artist;
+
+select *
+from Album a 
+inner join Artist b ON a.AlbumId = b.AlbumId ;
+
+SELECT *
+FROM  Album a 
+left outer join  Artist b on a.AlbumId = b.ArtistId ;
+
+select * from Customer c
+left outer join Employee e on c.CustomerId = e.EmployeeId ;
+select * from Employee;
+
